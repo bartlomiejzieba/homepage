@@ -2,33 +2,89 @@ body {
     background: #fefefe
 }
 
-.heading {
+.mainpage {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+    padding-top: 38px;
+}
+
+.navigation {
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background: white;
+    text-decoration: none;
+}
+
+.top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: #74A57F;
+    text-decoration: none;
+}
+
+.navigation__link {
+    color: #74A57F;
+    text-decoration: none;
+}
+
+.link {
+    color: #74A57F;
+    text-decoration: none;
+}
+
+.mainpage__header {
     color: #087F8C;
 }
 
-.sectionHeader, .diaryHeader {
+.about {}
+
+.about__header {
     color: #134074;
 }
 
-.thirdHeader {
+.diary__header {
+    color: #134074;
+}
+
+.day-1__header, .day-2__header, .day-3__header, .day-4__header {
     color: #13315C;
 }
 
-.mainpageFooter {
-    color: mediumseagreen;
+.mainpage__footer, color: #8499B1;
+text-align: center;
 }
 
-.undersite {
+.subpage {
     background: #fefefe;
 }
 
-.undersiteHeader {
-    color: red;
+.subpage__main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+    padding-top: 38px;
 }
 
-.undersiteFooter {
-    color: hotpink;
+.subpage__header {
+    color: red;
+    padding: 10px 0 0 0;
+}
+
+.subpage__article--footer {
+    color: #8499B1;
+    text-align: right;
     font-style: italic;
+}
+
+.subpage__footer {
+    color: #8499B1;
+    text-align: center;
 }
 
 .tworzeniehtml, .uczestnictwowkursie, .tworzeniecss, .tworzenieJavaScript {
@@ -39,15 +95,6 @@ body {
     color: red;
 }
 
-.link {
-    color: #74A57F;
-}
-.main {
-    width: 100%;
-    max-width: 700px;
-    margin: 32px auto;
-    padding-top: 38px;
-}
 .imageHtml {
     width: 100%;
     max-width: 200px;
@@ -55,27 +102,7 @@ body {
     padding: -50px 30px 30px 30px;
     box-sizing: border-box;
 }
+
 .htmlFooter {
     text-align: right;
-}
-.navigation {
-    position: fixed;
-    box-sizing: border-box;
-    width: 100%;
-    top: 0;
-    left: 0;
-    padding: 10px;
-    background: white;
-    text-decoration: none;
-
-
-
-
-}
-.top {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    color: #74A57F;
-    text-decoration: none;
 }
