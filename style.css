@@ -1,4 +1,4 @@
-body {
+.mainpage__body, .subpage__body, .day-1__body, .day-2__body, .day-3__body, .day-4__body {
     background: #fefefe
 }
 
@@ -60,10 +60,6 @@ body {
 text-align: center;
 }
 
-.subpage {
-    background: #fefefe;
-}
-
 .subpage__main {
     width: 100%;
     max-width: 700px;
@@ -87,15 +83,19 @@ text-align: center;
     text-align: center;
 }
 
-.tworzeniehtml, .uczestnictwowkursie, .tworzeniecss, .tworzenieJavaScript {
-    background: #fefefe;
-}
-
-.tworzeniehtmlHeader, .uczestnictwowkursieHeader, .tworzeniecssHeader, .javaScriptHeader {
+.day-1__heading, .day-2__heading, .day-3__heading, .day-4__heading {
     color: red;
+    text-align: center;
 }
 
-.imageHtml {
+.day-1__main, .day-2__main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+    padding-top: 38px;
+}
+
+.day-1__image, .day-2__image {
     width: 100%;
     max-width: 200px;
     float: left;
@@ -103,6 +103,6 @@ text-align: center;
     box-sizing: border-box;
 }
 
-.htmlFooter {
+.day-1__article--footer, .day-2__article--footer {
     text-align: right;
 }
