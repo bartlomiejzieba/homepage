@@ -38,7 +38,7 @@
     text-decoration: none;
 }
 
-.mainpage__header, .mainpage__header--js {
+.mainpage__header, {
     color: #087F8C;
 }
 
