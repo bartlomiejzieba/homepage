@@ -1,5 +1,6 @@
 .mainpage__body, .subpage__body, .day-1__body, .day-2__body, .day-3__body, .day-4__body {
-    background: #fefefe
+    background-color: #ebebeb;
+    background-image: linear-gradient(19deg, #ebebeb 0%, #99bdd8 100%);
 }
 
 .mainpage {
@@ -9,7 +10,7 @@
     padding-top: 38px;
 }
 
-.navigation {
+.site-header {
     position: fixed;
     box-sizing: border-box;
     width: 100%;
@@ -28,6 +29,21 @@
     text-decoration: none;
 }
 
+.navigation {}
+
+.navigation__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation__item {
+    display: block;
+    margin: 0 16px;
+}
+
 .navigation__link {
     color: #74A57F;
     text-decoration: none;
@@ -38,8 +54,8 @@
     text-decoration: none;
 }
 
-.mainpage__header, {
-    color: #087F8C;
+.mainpage__header {
+    color: #134074;
 }
 
 .about {}
